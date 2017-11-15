@@ -49,8 +49,8 @@
         <extensions>true</extensions>
         <configuration>
           <sdk>
-            <platform>25</platform>
-            <buildTools>25.0.2</buildTools>
+            <platform>26</platform>
+            <buildTools>26.0.2</buildTools>
           </sdk>
         </configuration>
       </plugin>
