@@ -8,7 +8,7 @@
     <name>AWS SDK for Android - Amazon Lex</name>
     <description>The AWS Android SDK for Amazon Lex</description>
     <url>http://aws.amazon.com/mobile/sdk</url>
-    
+
     <parent>
         <groupId>com.amazonaws</groupId>
         <artifactId>aws-android-sdk-pom</artifactId>
@@ -27,7 +27,7 @@
         <distribution>repo</distribution>
       </license>
     </licenses>
-    
+
     <dependencies>
         <dependency>
             <groupId>com.amazonaws</groupId>
@@ -69,7 +69,8 @@
                 <extensions>true</extensions>
                 <configuration>
                     <sdk>
-                        <platform>11</platform>
+                      <platform>26</platform>
+                      <buildTools>26.0.2</buildTools>
                     </sdk>
                     <nativeLibrariesDirectory>${project.basedir}/src/main/jni</nativeLibrariesDirectory>
                 </configuration>
@@ -82,6 +83,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
             </plugin>
-        </plugins>  
+        </plugins>
     </build>
 </project>
